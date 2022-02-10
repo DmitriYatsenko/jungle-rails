@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.feature "Product Deatils", type: :feature, js: true do
+RSpec.feature "Product Details", type: :feature, js: true do
   before :each do
     @category = Category.create! name: 'Apparel'
     10.times do |n|
